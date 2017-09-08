@@ -187,11 +187,12 @@ KnxDPTFormatToLengthBit = [
     16  # KNX_DPT_FORMAT_A8A8
 ]
 
+# KnxDPT_ID
 # Define all the KNX Datapoint IDs (from 1.001 to 14.007 only)
 # 0,    1.001 B1 DPT_Switch
-#       1.002 B1 DPT_Bool
-#       1.003 B1 DPT_Enable
-#       1.004 B1 DPT_Ramp
+# 1,      1.002 B1 DPT_Bool
+# 2,      1.003 B1 DPT_Enable
+# ...      1.004 B1 DPT_Ramp
 #       1.005 B1 DPT_Alarm
 #       1.006 B1 DPT_BinaryValue
 #       1.007 B1 DPT_Step
