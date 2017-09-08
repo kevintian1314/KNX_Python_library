@@ -25,7 +25,7 @@ def KnxEvents(index):
 
 try:
     Knx.begin("/dev/ttyAMA0", KnxDevice.P_ADDR(1, 1, 3), Knx, KnxEvents)
-    Knx.write(1, 1)
+    # Knx.write(1, 1)
     while 1:
         Knx.task()
 except KeyboardInterrupt:
